@@ -1,5 +1,9 @@
-# connect-eveng
-1. Configure router
+# Connecting-Eve-NG
+
+1. In EVE-NG, select the Cloud and select ManagementCloud0 interface.
+
+
+2. Configure router
 
 >Note: Get the management range from your browser. It should match your Eve-Ng environment
 
