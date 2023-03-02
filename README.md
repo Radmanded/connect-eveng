@@ -29,9 +29,9 @@ CiscoRouter(config-line)#login local
 CiscoRouter(config-line)#exi
 CiscoRouter(config)#vrf definition MGMT
 CiscoRouter(config-vrf)#address-family ipv4
-CiscoRouter(config-vrf-af)#int g0/0
+CiscoRouter(config-vrf-if)#int g0/0
 CiscoRouter (config-if)#vrf forwarding MGMT
-CiscoRouter(config-if#p address <eve-ng ip address> 255.255.255.0
+CiscoRouter(config-if)#ip address <eve-ng ip address> 255.255.255.0
 CiscoRouter(config-if)#no shut
 ```
 
